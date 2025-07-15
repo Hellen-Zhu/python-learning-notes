@@ -1,0 +1,13 @@
+# Python Learning Notes - 依赖文件
+# 这是一个基础Python学习项目，目前主要使用Python标准库
+
+# 如果需要额外的包，可以在这里添加
+# 例如：
+# requests>=2.25.1
+# pandas>=1.3.0
+# numpy>=1.21.0
+
+# 开发工具（可选）
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0 
