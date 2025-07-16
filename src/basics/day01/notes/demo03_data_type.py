@@ -9,15 +9,20 @@ print(type(age), type(height),type(is_female))
 
 # 非数字类型
 name = 'Hellen'
-hobbies = '''love sport'''
 
 list1 = [1,2,3]
 tuple1 = (1,2,3)
 set1 = {1,2,3}
 dict1 = {'name':'Hellen','age':18}
 
-print(type(name), type(hobbies), type(list1),type(tuple1),type(set1),type(dict1))
+print(type(name), type(list1),type(tuple1),type(set1),type(dict1))
 
+age=input("Input your age:")
+
+if int(age)>=18:
+    print("You are an adult now")
+else:
+    print("You are still a child")
 # Python 数据类型详解
 """
 Python 中的数据类型可以分为以下几类:
